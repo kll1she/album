@@ -1,0 +1,64 @@
+.header {
+    padding: 50px 0;
+    border-radius: 0 0 50px 50px;
+    background-color: rgb(253, 189, 105);
+    border: 1px solid #D7D7D7;
+}
+.clock {
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    .clock-number {
+        font-size: 150px;
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+    }
+    .clock-text {
+        color: #fff;
+    }
+    .clock-item {
+        &.invisible {
+            display: none;
+        }
+    }
+    .end {
+        font-size: 60px;
+        font-family: 'Montserrat', sans-serif;
+        display: none;
+        &.visible {
+            display: block;
+        }
+    }
+}
+
+/*RESPONSIVE*/
+/*1200px - 992px*/
+@media screen and (max-width: 1200px) {
+
+}
+
+/*992px - 768px*/
+@media screen and (max-width: 992px) {
+
+}
+
+/*768px - 576px*/
+@media screen and (max-width: 768px) {
+
+}
+
+/*576px - 0px*/
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+    .header {
+        padding: 30px 0;
+    }
+    .clock {
+        gap: 50px;
+        .clock-number {
+            font-size: 80px;
+        }
+    }
+}

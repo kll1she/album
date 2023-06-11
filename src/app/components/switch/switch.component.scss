@@ -1,0 +1,50 @@
+.switch {
+    margin: 25px 0;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.button {
+    padding: 16px 77px;
+    background-color: #fff;
+    border-radius: 100px;
+    color: #000;
+    border: 1px solid #D7D7D7;
+}
+.hide {
+    display: none;
+}
+
+/*RESPONSIVE*/
+/*1200px - 992px*/
+@media screen and (max-width: 1200px) {
+
+}
+
+/*992px - 768px*/
+@media screen and (max-width: 992px) {
+
+}
+
+/*768px - 576px*/
+@media screen and (max-width: 768px) {
+
+}
+
+/*576px - 0px*/
+@media screen and (max-width: 576px) {
+    .switch {
+        &.invisible {
+            display: none;
+        }
+    }
+    .button {
+        font-size: 16px;
+        padding: 9px 30px;
+    }
+    .hide {
+        display: flex;
+        font-size: 16px;
+        margin: 10px 0;
+        color: gray;
+    }
+}

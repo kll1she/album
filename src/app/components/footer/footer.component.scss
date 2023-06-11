@@ -1,0 +1,44 @@
+.footer {
+    background-color: #fff;
+    border-radius: 50px 50px 0 0;
+    padding: 50px 0;
+    border: 1px solid #D7D7D7;
+    margin-top: 25px;
+    .text {
+        text-align: center;
+        line-height: 140%;
+        .link {
+            border-bottom: 1px solid #000;
+            color: #000
+        }
+        &:not(:last-of-type) {
+            margin-bottom: 16px;
+        }
+    }
+}
+
+/*RESPONSIVE*/
+/*1200px - 992px*/
+@media screen and (max-width: 1200px) {
+
+}
+
+/*992px - 768px*/
+@media screen and (max-width: 992px) {
+
+}
+
+/*768px - 576px*/
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    .text, .link {
+        font-size: 20px;
+    }
+}
+
+/*576px - 0px*/
+@media screen and (max-width: 576px) {
+
+}

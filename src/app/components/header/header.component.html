@@ -1,0 +1,23 @@
+<section class="header" id="header">
+    <div class="container">
+        <div class="fx clock">
+            <div class="fx fd-col clock-item" [ngClass]="{invisible: invisibility}">
+                <p class="clock-number">{{days}}</p>
+                <p class="clock-text">дней</p>
+            </div>
+            <div class="fx fd-col clock-item" [ngClass]="{invisible: invisibility}">
+                <p class="clock-number">{{hours}}</p>
+                <p class="clock-text">часов</p>
+            </div>
+            <div class="fx fd-col clock-item" [ngClass]="{invisible: invisibility}">
+                <p class="clock-number">{{minutes}}</p>
+                <p class="clock-text">минут</p>
+            </div>
+           <div class="fx fd-col clock-item" [ngClass]="{invisible: invisibility}">
+                <p class="clock-number">{{seconds}}</p>
+                <p class="clock-text">секунд</p>
+           </div>
+           <p class="end" [ngClass]="{visible: visibility}">{{end}}</p>
+        </div>
+    </div>
+</section>

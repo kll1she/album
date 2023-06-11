@@ -1,1 +1,188 @@
-/* You can add global styles to this file, and also import other style files */
+/**************Обнуление**************/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+/***********************************/
+
+/**************Глобальные стили**************/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap');
+* {
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #ECEDF1;
+}
+.container {
+	width: 95%;
+	margin: 0 auto;
+}
+.fx {
+	display: flex;
+}
+.jc-c {
+	justify-content: center;
+}
+.fd-col {
+	flex-direction: column;
+}
+
+.arrow-container {
+    opacity: 1;
+    transition: 0.3s ease;
+    &.invisible {
+        opacity: 0;
+    }
+}
+.arrow {
+    position: fixed;
+    top: 85%;
+    left: 90%;
+    width: 80px;
+    height: auto;
+}
+/*RESPONSIVE*/
+/*1200px - 992px*/
+@media screen and (max-width: 1200px) {
+}
+
+/*992px - 768px*/
+@media screen and (max-width: 992px) {
+    .arrow {
+        width: 70px;
+        left: 85%;
+    }
+}
+
+/*768px - 576px*/
+@media screen and (max-width: 768px) {
+}
+
+/*576px - 0px*/
+@media screen and (max-width: 576px) {
+    .arrow {
+        width: 60px;
+        left: 80%;
+        top: 90%;
+    }
+	.arrow-container {
+        opacity: 0;
+    }
+}
+
+/***********************************/
+
+/*---------------SCROLL---------------*/
+*,
+html *
+
+/* override x.xhtml.ru style */
+	{
+	scrollbar-width: thin;
+	scrollbar-color: rgb(255, 182, 87) #ECEDF1;
+}
+
+*::-webkit-scrollbar,
+html *::-webkit-scrollbar {
+	height: 5px;
+	width: 7px;
+}
+
+*::-webkit-scrollbar-track,
+html *::-webkit-scrollbar-track {
+	background: #ECEDF1;
+}
+
+*::-webkit-scrollbar-thumb,
+html *::-webkit-scrollbar-thumb {
+	background-color: rgb(255, 182, 87);
+	border-radius: 5px;
+}
+
+/*------------------------------*/
