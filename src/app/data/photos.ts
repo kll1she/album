@@ -173,7 +173,7 @@ export const photos: PhotoModule[] = [
         id: 25,
         href: 'https://i.postimg.cc/2SnQjMD9/22.jpg',
         alt: 'Крутые',
-        date: '06.02.2022',
+        date: '05.02.2022',
         description: 'Самые красивые и любящие друг друга котики фотографируются. Сразу видно, что вместе они счастливее всех на свете.'
     },
     {
@@ -349,7 +349,7 @@ export const photos: PhotoModule[] = [
         href: 'https://i.postimg.cc/6qTCkF8g/IMG-3809.jpg',
         alt: 'Пасха',
         date: '16.04.2023',
-        description: 'Это нас сфоткали вместе на Пасху. Христос Воскрес!!!)',
+        description: 'Это нас, таких замечательных красавчиков, сфоткали вместе на Пасху. Христос Воскрес!!!',
     },
     {
         id: 51,
