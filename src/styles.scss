@@ -165,7 +165,7 @@ html *
 /* override x.xhtml.ru style */
 	{
 	scrollbar-width: thin;
-	scrollbar-color: rgb(255, 182, 87) #ECEDF1;
+	scrollbar-color: #113d1e #ECEDF1;
 }
 
 *::-webkit-scrollbar,
@@ -181,7 +181,7 @@ html *::-webkit-scrollbar-track {
 
 *::-webkit-scrollbar-thumb,
 html *::-webkit-scrollbar-thumb {
-	background-color: rgb(255, 182, 87);
+	background-color: #113d1e;
 	border-radius: 5px;
 }
 
