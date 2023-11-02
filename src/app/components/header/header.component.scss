@@ -24,6 +24,7 @@
     .end {
         font-size: 60px;
         font-family: 'Montserrat', sans-serif;
+        color: #fefbe2;
         display: none;
         &.visible {
             display: block;
@@ -59,6 +60,9 @@
         gap: 50px;
         .clock-number {
             font-size: 80px;
+        }
+        .end {
+            font-size: 40px;
         }
     }
 }

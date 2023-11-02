@@ -18,7 +18,7 @@ export class HeaderComponent {
   end: string = '';
 
   x = setInterval(()=>{
-    var futureDate = new Date("Oct 11 2023 00:00:00").getTime();
+    var futureDate = new Date("May 24 2024 00:00:00").getTime();
     var today = new Date().getTime();
     var distance = futureDate - today;
     this.days = distance > 0 ? Math.floor(distance / 1000 / 60 / 60 / 24) : 0;
@@ -30,7 +30,7 @@ export class HeaderComponent {
       clearInterval(this.x);
       this.invisibility = true;
       this.visibility = true;
-      this.end = 'Любимая, сегодня наша годовщина!!!';
+      this.end = 'Любимая, сегодня наша свадьба!!!';
     }
   }, 1000)
 }
